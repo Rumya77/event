@@ -32,7 +32,7 @@ $(function() {
         e.preventDefault();
         $.ajax({
             type: 'POST',
-            url: '/api/reguser',
+            url: '/api/regu  ser',
             data: {
                 username: $('#form_reg [name=username]').val(),
                 password: $('#form_reg [name=password]').val(),
